@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import { BillType } from "./BillType";
 import { Currency } from "./Currency";
+=======
+import { BillType } from './BillType';
+import { Currency } from './Currency';
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
 
 export class RuleObject {
   /**
@@ -18,6 +23,7 @@ export class RuleObject {
   constructor(
     type = BillType.Expend,
     money = 0.01,
+<<<<<<< HEAD
     shopName = "",
     shopItem = "",
     accountNameFrom = "",
@@ -26,6 +32,16 @@ export class RuleObject {
     currency = Currency["人民币"],
     time = 0,
     channel = "",
+=======
+    shopName = '',
+    shopItem = '',
+    accountNameFrom = '',
+    accountNameTo = '',
+    fee = 0.0,
+    currency = Currency['人民币'],
+    time = 0,
+    channel = ''
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
   ) {
     /**
      * 账单类型 只有三种

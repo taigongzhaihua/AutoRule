@@ -25,7 +25,7 @@ jobs:
       - name: Install dependencies with Yarn
         run: |
           yarn install
-          yarn webpack --mode production
+          yarn rollup -c
 
       - name: Build Changelog
         id: github_release
@@ -45,13 +45,11 @@ jobs:
         env:
           CHANGELOG: ${{steps.github_release.outputs.changelog}}
           GITHUB_WORKSPACE: ${{ env.GITHUB_WORKSPACE }}
-          HOST_ENV_VAR: ${{ secrets.HOST_ENV_VAR }}
-          USERNAME_ENV_VAR: ${{ secrets.USERNAME_ENV_VAR }}
-          PASSWORD_ENV_VAR: ${{ secrets.PASSWORD_ENV_VAR }}
+          ALIST_TOKEN: ${{ secrets.ALIST_TOKEN }}
+          FORUMS_API_TOKEN: ${{ secrets.FORUMS_API_TOKEN }}
       - name: Create Release
         uses: mikepenz/action-gh-release@v0.2.0-a03 #softprops/action-gh-release
         with:
           body: ${{steps.github_release.outputs.changelog}}
           files: |
-            dist/category.js
-            dist/rule.js
+            *.zip

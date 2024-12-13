@@ -13,6 +13,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+<<<<<<< HEAD
+=======
+      - name: Setup timezone
+        run: |
+          sudo timedatectl set-timezone Asia/Shanghai
+
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
       - name: Setup Node.js
         uses: actions/setup-node@v2
         with:

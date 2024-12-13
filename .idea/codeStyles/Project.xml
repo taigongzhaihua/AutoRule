@@ -26,7 +26,11 @@
       <option name="INTERPOLATION_NEW_LINE_BEFORE_END_DELIMITER" value="false" />
     </VueCodeStyleSettings>
     <codeStyleSettings language="HTML">
+<<<<<<< HEAD
       <option name="SOFT_MARGINS" value="500" />
+=======
+      <option name="SOFT_MARGINS" value="80" />
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -43,7 +47,11 @@
       <option name="DOWHILE_BRACE_FORCE" value="3" />
       <option name="WHILE_BRACE_FORCE" value="3" />
       <option name="FOR_BRACE_FORCE" value="3" />
+<<<<<<< HEAD
       <option name="SOFT_MARGINS" value="500" />
+=======
+      <option name="SOFT_MARGINS" value="80" />
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -51,7 +59,11 @@
       </indentOptions>
     </codeStyleSettings>
     <codeStyleSettings language="TypeScript">
+<<<<<<< HEAD
       <option name="SOFT_MARGINS" value="500" />
+=======
+      <option name="SOFT_MARGINS" value="80" />
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
       <indentOptions>
         <option name="INDENT_SIZE" value="2" />
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
@@ -59,7 +71,11 @@
       </indentOptions>
     </codeStyleSettings>
     <codeStyleSettings language="Vue">
+<<<<<<< HEAD
       <option name="SOFT_MARGINS" value="500" />
+=======
+      <option name="SOFT_MARGINS" value="80" />
+>>>>>>> 41e6388fdb02a9a480f7c8cbf2dd616cda70d7fc
       <indentOptions>
         <option name="CONTINUATION_INDENT_SIZE" value="2" />
       </indentOptions>
